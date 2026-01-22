@@ -1,62 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sidika Banu | Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Sidika Banu S | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<!-- ===== HEADER / HERO ===== -->
+<header class="hero">
     <h1>Sidika Banu S</h1>
     <p>MSc Computer Science Student</p>
+    <span>Aspiring Software Engineer | Web & Machine Learning Enthusiast</span>
 </header>
 
-<section>
+<!-- ===== ABOUT ===== -->
+<section class="section">
     <h2>About Me</h2>
     <p>
-        I am an MSc Computer Science and Technology student with strong interest in
-        software development, web technologies, and machine learning. I enjoy building
-        real-world applications in healthcare and public service domains.
+        I am an MSc Computer Science and Technology student from Women’s Christian College, Chennai.
+        I have a strong interest in software development, web technologies, and machine learning.
+        I enjoy building real-world applications in healthcare and public service domains.
+        I am actively seeking an entry-level software engineering role where I can apply my skills
+        and grow professionally.
     </p>
 </section>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Java, Python, PHP, C++</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>MySQL, SQL Server</li>
-        <li>Machine Learning</li>
-        <li>Linux, Git, VS Code</li>
-    </ul>
+<!-- ===== SKILLS ===== -->
+<section class="section light">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>Java</span>
+        <span>Python</span>
+        <span>PHP</span>
+        <span>C++</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>MySQL</span>
+        <span>SQL Server</span>
+        <span>Machine Learning</span>
+        <span>Linux</span>
+        <span>Git</span>
+    </div>
 </section>
 
-<section>
+<!-- ===== PROJECTS ===== -->
+<section class="section">
     <h2>Projects</h2>
-    <ul>
-        <li><b>Cleanliness Monitoring Service</b> – Web-based system to report and track public cleanliness issues.</li>
-        <li><b>Donor Hub</b> – Blood donation management mobile application.</li>
-        <li><b>Healthy Dine</b> – Nutrition and meal planning mobile app.</li>
+
+    <div class="card">
+        <h3>Cleanliness Monitoring Service</h3>
+        <p>
+            A web-based system that allows users to report unhygienic public areas by submitting
+            complaints with images. Administrators can monitor complaints, update status,
+            and take corrective action efficiently.
+        </p>
+        <p><b>Technologies:</b> PHP, MySQL, HTML, CSS</p>
+    </div>
+
+    <div class="card">
+        <h3>Donor Hub – Blood Donation Management System</h3>
+        <p>
+            A mobile application designed to connect blood donors with patients and hospitals.
+            It supports donor registration, eligibility checks, donor search, location mapping,
+            and hospital integration.
+        </p>
+        <p><b>Technologies:</b> MIT App Inventor, TinyDB</p>
+    </div>
+
+    <div class="card">
+        <h3>Healthy Dine – Nutrition & Meal Planning App</h3>
+        <p>
+            A nutrition-based mobile application that provides healthy meal planning guidance
+            to improve dietary awareness using a simple and user-friendly interface.
+        </p>
+        <p><b>Technologies:</b> MIT App Inventor</p>
+    </div>
+</section>
+
+<!-- ===== RESEARCH ===== -->
+<section class="section light">
+    <h2>Research Work</h2>
+    <div class="card">
+        <h3>Machine Learning-Based Disease Prediction Using Blood Test Data</h3>
+        <p>
+            This research focuses on predicting disease risk using routine blood test parameters
+            such as glucose, cholesterol, hemoglobin, white blood cell count, and liver and kidney
+            function indicators. Multiple machine learning models including Decision Trees,
+            Random Forests, Support Vector Machines, and XGBoost were explored.
+        </p>
+        <p>
+            The models were evaluated using accuracy and sensitivity metrics along with feature
+            importance analysis. The study demonstrates the effectiveness of machine learning
+            in preventive healthcare and early disease prediction.
+        </p>
+    </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section">
+    <h2>Education</h2>
+    <ul class="timeline">
+        <li>
+            <b>MSc (Integrated) Computer Science and Technology</b><br>
+            Women’s Christian College, Chennai<br>
+            <span>2021 – 2026</span>
+        </li>
+        <li>
+            <b>BSc Computer Science and Technology</b><br>
+            Women’s Christian College, Chennai<br>
+            <span>2021 – 2024</span>
+        </li>
     </ul>
 </section>
 
-<section>
-    <h2>Research</h2>
-    <p>
-        Machine Learning-based disease prediction using routine blood test parameters
-        to support early diagnosis and preventive healthcare.
-    </p>
+<!-- ===== INTERNSHIP ===== -->
+<section class="section light">
+    <h2>Internship Experience</h2>
+    <div class="card">
+        <h3>IT Intern – All India Radio & Prasar Bharati</h3>
+        <p>
+            Assisted in managing IT infrastructure, troubleshooting technical issues,
+            server maintenance, networking, and database management.
+            Contributed to improving digital broadcasting workflows.
+        </p>
+    </div>
 </section>
 
-<section>
+<!-- ===== RESUME ===== -->
+<section class="section">
     <h2>Resume</h2>
-    <a href="resume.pdf" download>Download Resume</a>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
 </section>
 
-<section>
+<!-- ===== CONTACT ===== -->
+<section class="section light">
     <h2>Contact</h2>
-    <p>Email: sidika19020219@gmail.com</p>
+    <p>Email: <b>sidika19020219@gmail.com</b></p>
+    <p>GitHub: <b>https://github.com/sidika19020219</b></p>
 </section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2026 Sidika Banu S | Portfolio</p>
+</footer>
 
 </body>
 </html>
