@@ -1,28 +1,125 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
     margin: 0;
-    background: #f4f6f9;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-header {
+body {
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg, #1f3c88, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero span {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #1f3c88;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.light {
+    background: #ffffff;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #1f3c88;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+    list-style: none;
+}
+
+.timeline li {
+    margin-bottom: 15px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    display: inline-block;
+    background: #1f3c88;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #163172;
+}
+
+/* ===== FOOTER ===== */
+footer {
     background: #1f3c88;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
+    margin-top: 30px;
 }
 
-section {
-    background: white;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 8px;
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+    .section h2 {
+        font-size: 24px;
+    }
 }
 
-h2 {
-    color: #1f3c88;
-}
-
-a {
-    color: #1f3c88;
-    font-weight: bold;
-}
